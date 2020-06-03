@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NIO demo</title>
+
+    <style type="text/css">
+
+        body {
+            background-image: url("../images/bg2.jpg");
+        }
+
+        #myDiv {
+
+            border: 1px solid lightblue;
+            width: 600px;
+            height: 400px;
+            background-color: whitesmoke;
+            margin: 120px auto;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<div id="myDiv">
+
+    <center>
+        <form action="http://127.0.0.1:8080/servlet/LoginServlet" method="post">
+            <table style="margin-top: 100px">
+
+                <tr>
+                    <td colspan="4">
+                        <center><span style="font-size:30px; color:skyblue">NIO案例测试 </span></center>
+                        <a href="https://github.com/Ruanspirit/nio"><font size="3px" color="blue">项目Github路径</font></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>动态资源：</td>
+                    <td><a href="http://127.0.0.1:8080/servlet/AServlet">AServlet</a></td>
+                    <td><a href="http://127.0.0.1:8080/servlet/BServlet">BServlet</a></td>
+                </tr>
+                <tr>
+                    <td>静态资源：</td>
+                    <td><a href="http://127.0.0.1:8080/images/b.jpg" target="_self">图片b.jpg</a></td>
+                    <td><a href="http://127.0.0.1:8080/text/a.txt" target="_self">文件a.txt</a></td>
+                </tr>
+                <tr>
+                    <td>用户名：</td>
+                    <td><input type="text" name="username" placeholder="请输入用户名"></td>
+
+                </tr>
+                <tr>
+                    <td>密码：</td>
+                    <td><input type="password" name="password" placeholder="请输入密码"></td>
+                    <td><input type="submit"/></td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</div>
+
+</body>
+</html>
